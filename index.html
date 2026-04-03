@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <title>Analytics Demo | Lab Experiment</title>
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-88LK4NLBJ1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-88LK4NLBJ1'); // Replace G-XXXXXXXXXX with your Measurement ID
+      gtag('config', 'G-88LK4NLBJ1'); 
     </script>
 </head>
 <body>
@@ -21,7 +21,6 @@
     <script>
         document.getElementById('trackBtn').onclick = function() {
             alert("Button clicked!");
-            // GA4 Event Tracking
             gtag('event', 'button_click', {
                 'event_category': 'engagement',
                 'event_label': 'demo_button'
